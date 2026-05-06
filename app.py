@@ -130,4 +130,4 @@ async def analyze(file: UploadFile = File(...)):
     })
 
 if __name__ == "__main__":
-    uvicorn.run("app:app", host="192.168.29.84", port=8000, reload=False, log_level="info")
+    uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=False, log_level="info")
