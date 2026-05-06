@@ -1,0 +1,15 @@
+path: /home/roshan/Roshan_AI_PC_Backup/ROSHAN/AI_Roshan_Dabhere/Projects/AI_Car_Crash_Detection/dataset
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 7
+names:
+  - Glass Brack
+  - Side Door Damage
+  - Front Damage
+  - Back Damage
+  - Dent
+  - Pillar Damage
+  - Roof Damage
